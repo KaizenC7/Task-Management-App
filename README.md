@@ -404,6 +404,4 @@ Everything is ready to go. Follow the Quick Start guide above and you'll have a 
 **Last Updated**: January 2026
 **Version**: 1.0.0
 **Status**: ✅ Production Ready
-**Maintainer**: Your Name
-
-Built with ❤️ using React, Express, and Tailwind CSS
+**Maintainer**: Siddharth
