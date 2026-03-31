@@ -1,139 +1,29 @@
-.TaskBody{
-    background-color: hsl(0, 0%, 10%);
-    height: 100vh;
-}
-.Inputs{
-    font-family: Arial, sans-serif;
-    text-align: center;
-    margin-top: 100px;
+@import "tailwindcss";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-h1{
-    font-size: 4rem;
-    color: white;
-    text-align: center;
-}
-.Add{
-    font-size: 1.7rem;
-    font-weight: bold;
-    padding: 10px 20px;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.5s ease;
-}
-.Add{
-    background-color: hsl(125, 47%, 54%);
-}
-.Add{
-    background-color: hsl(125, 47%, 44%);
-}
-.delete-btn{
-    background-color: hsl(0, 86%, 48%);
-}
-.delete-btn:hover{
-    background-color: hsl(352, 78%, 61%);
-    cursor: pointer;
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-.completed-btn:hover{
-    background-color: hsl(118, 80%, 55%);
-    cursor: pointer;
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
 }
 
-.edit-btn:hover{
-    background-color: hsl(204, 80%, 55%);
-    cursor: pointer;
-}
-
-.save-btn:hover{
-    background-color: hsl(118, 80%, 55%);
-    cursor: pointer;
-}
-
-.cancel-btn:hover{
-    background-color:  hsl(352, 78%, 61%);
-    cursor: pointer;
-}
-
-.completed {
+.task-completed {
+.completed-task {
   text-decoration: line-through;
-  opacity: 0.7;
-  color: green;
+  color: rgb(107 114 128);
 }
-
-input[type="text"]{
-    font-size: 1.6rem;
-    padding: 10px;
-    border: 2px solid hsla(0, 0%, 80%, 0.5);
-    border-radius: 5px;
-    color: hsla(0, 0%, 0%, 0.5);
-}
-ol{
-    padding: 0;
-}
-li{
-    font-size: 2rem;
-    font-weight: bold;
-    padding: 15px;
-    background-color: hsl(0, 0%, 97%);
-    margin-bottom: 10px;
-    border: 3px solid hsla(0, 0%, 85%, 0.75);
-    border-radius: 5px;
-    display: flex;
-    align-items: center;
-}
-.text{
-    flex: 1;
-}
-.delete-btn{
-    padding: 8px 12px;
-    font-size: 1.4rem;
-    margin-left: 10px;
-    border: 1px;
-    border-radius: 3px;
-    color: white;
-}
-
-.completed-btn {
-    background-color: green;
-    border: 1px;
-    border-radius: 3px;
-    color: white;
-     padding: 8px 12px;
-    font-size: 1.4rem;
-    margin-left: 10px;
-}
-
-.edit-btn {
-    background-color: blue;
-    border: 1px;
-    border-radius: 3px;
-    color: white;
-     padding: 8px 12px;
-    font-size: 1.4rem;
-    margin-left: 10px;
-}
-
-.save-btn{
-    background-color: green;
-    border: 1px;
-    border-radius: 3px;
-    color: white;
-     padding: 8px 12px;
-    font-size: 1.4rem;
-    margin-left: 10px;
-}
-
-.cancel-btn{
-    background-color: orangered;
-    border: 1px;
-    border-radius: 3px;
-    color: white;
-     padding: 8px 12px;
-    font-size: 1.4rem;
-    margin-left: 10px;
 }
 
 
